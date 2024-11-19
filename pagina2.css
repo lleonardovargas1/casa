@@ -77,9 +77,19 @@
     transition: background 0.3s;
   }
   
+.quimica{
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-decoration: none;
+  }
   button:hover {
     background-color: #4d0000;
-
   }
   
   #dialog-box {
@@ -121,22 +131,24 @@
     width: 180px; /* Aumentado de 120px para 180px */
     text-align: center;
     animation: bounce 3s infinite;
+    
   }
   
   #character img {
     width: 100%; /* A imagem se ajusta automaticamente ao novo tamanho */
     border-radius: 50%;
     border: 3px solid #860404;
+    background-color: #4d0000;
   }
   
   #character-dialog {
-    background-color: #fff;
+    background-color:#fff;
     padding: 10px;
     border: 2px solid #790000;
     border-radius: 10px;
     margin-top: 10px;
     color: #333;
-    font-size: 1rem; /* Aumentado de 0.9rem para 1rem para acompanhar o tamanho maior */
+    font-size: 1rem;
     animation: fadeIn 1s ease;
   }
   
@@ -149,18 +161,3 @@
     from { opacity: 0; }
     to { opacity: 1; }
   }
-  .quimico{
-padding-top: 10px;
-padding-bottom: 10px;
-background-color: #000000;
-color: white;
-text-decoration: none;
-  }
-  .quimico:hover{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #4d0000;
-    transition: background 0.3s;
-    color: white;
-    text-decoration: none;
-      }
