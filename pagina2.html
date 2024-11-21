@@ -3,61 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Laboratório dos Elementos Perdidos</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Laboratório dos Elementos Perdidos - Química</title>
+  <link rel="stylesheet" href="pagina2.css">
 </head>
 <body>
-  <h1>Laboratório dos Elementos Perdidos</h1>
-  <p>Clique nos setores para explorar e resolver mistérios científicos.</p>
+  <h1>Laboratório dos Elementos Perdidos - Quiz de Química</h1>
+  <p>Clique nas respostas para testar seus conhecimentos sobre Química!</p>
 
   <!-- Exibição da Pontuação -->
   <div id="scoreboard">
     <span>Pontuação: <span id="score">0</span></span>
   </div>
 
-  <!-- Personagem: -->
-  <div id="character">
-    <img class="sandro" src="../casa/imagens/9dgabriel-1--unscreen.gif" alt="Professor Elemento">
-    <div id="character-dialog">Bem-vindo, jovem cientista! Clique em um setor para começar!</div>
+  <!-- Container para a pergunta -->
+  <div id="question-container"></div>
+
+  <!-- Imagem abaixo das perguntas -->
+  <div id="quiz-image">
+    <img src="../casa/imagens/9dgabriel-1--unscreen.gif" alt="Imagem de Química" />
   </div>
 
-  <!-- Container do Laboratório -->
-  <div id="laboratory">
-    <!-- Setor de Química -->
-    <div class="sector" id="chemistry-sector">
-      <h2>Química</h2>
-      <button class="quimica" onclick="startPuzzle('chemistry')">Explorar Química</button>
-    </div>
-    <!-- Setor de Física -->
-    <div class="sector" id="physics-sector">
-      <h2>Física</h2>
-      <button onclick="startPuzzle('physics')">Explorar Física</button>
-    </div>
-    <!-- Setor de Biologia -->
-    <div class="sector" id="biology-sector">
-      <h2>Biologia</h2>
-      <button onclick="startPuzzle('biology')">Explorar Biologia</button>
-    </div>
-  </div>
-
-  <!-- Caixa de Diálogo para Interação -->
+  <!-- Caixa de Diálogo -->
   <div id="dialog-box">
-    <h3 id="dialog-title">Bem-vindo ao Laboratório!</h3>
-    <p id="dialog-content">Clique em uma das seções para começar.</p>
-    <div id="choices"></div>
+    <p id="dialog-content">Aqui será exibido o feedback para a resposta.</p>
     <button onclick="closeDialog()">Fechar</button>
   </div>
-  <div vw class="enabled">
-    <div vw-access-button class="active"></div>
-    <div vw-plugin-wrapper>
-        <div class="vw-plugin-top-wrapper"></div>
-    </div>
-</div>
-<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-<script>
-    new window.VLibras.Widget('https://vlibras.gov.br/app');
-</script>
 
-  <script src="script.js"></script>
+  <script src="pagina.js"></script>
 </body>
 </html>
