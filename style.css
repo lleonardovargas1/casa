@@ -124,9 +124,9 @@ button:hover {
 }
 
 #character img {
-  position: static;
-  width: 200px; 
-  margin-left: 550px
+ 
+  width: 300px; 
+margin-left: 655px;
 }
 
 #character-dialog {
@@ -182,7 +182,18 @@ text-decoration: none;
         color: white;
         text-decoration: none;
           }
-          .sandro{
-          width: 250px;
-          
-          }
+          .biologio{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: #000000;
+            color: white;
+            text-decoration: none;
+            }
+            .biologio:hover{
+              padding-top: 10px;
+              padding-bottom: 10px;
+              background-color: #4d0000;
+              transition: background 0.3s;
+              color: white;
+                text-decoration: none;
+              }
