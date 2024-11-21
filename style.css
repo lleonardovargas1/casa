@@ -124,20 +124,23 @@ button:hover {
 }
 
 #character img {
-  width: 100%; /* A imagem se ajusta automaticamente ao novo tamanho */
-  border-radius: 50%;
-  border: 3px solid #860404;
+  position: static;
+  width: 200px; 
+  margin-left: 550px
 }
 
 #character-dialog {
+  width: 200px;
   background-color: #fff;
   padding: 10px;
   border: 2px solid #790000;
   border-radius: 10px;
-  margin-top: 10px;
   color: #333;
-  font-size: 1rem; /* Aumentado de 0.9rem para 1rem para acompanhar o tamanho maior */
+  font-size: 1rem;
   animation: fadeIn 1s ease;
+  margin-left: 700px;
+ 
+  
 }
 
 @keyframes bounce {
@@ -164,3 +167,22 @@ text-decoration: none;
   color: white;
   text-decoration: none;
     }
+    .fisico{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: #000000;
+      color: white;
+      text-decoration: none;
+      }
+      .fisico:hover{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #4d0000;
+        transition: background 0.3s;
+        color: white;
+        text-decoration: none;
+          }
+          .sandro{
+          width: 250px;
+          
+          }
