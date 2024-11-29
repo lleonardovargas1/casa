@@ -18,8 +18,8 @@ const questions = {
         },
         { 
             question: "Qual é o valor aproximado da aceleração da gravidade na Terra?", 
-            choices: ["9,8 m/s²", "10 m/s²", "8,9 m/s²", "15 m/s²"], 
-            correct: "9,8 m/s²" 
+            choices: ["10 m/s²", "9,8 m/s²", "8,9 m/s²", "15 m/s²"], 
+            correct: "10 m/s²" 
         },
         { 
             question: "Qual grandeza física é definida como a razão entre deslocamento e tempo?", 
@@ -32,14 +32,14 @@ const questions = {
             correct: "Joule" 
         },
         { 
-            question: "O que é trabalho em física?", 
+            question: "A unidade de medida Ano-Luz mede o quê?", 
             choices: [
-                "Energia transferida por uma força ao longo de um deslocamento",
-                "Força aplicada sem movimento",
-                "Energia armazenada em um sistema",
+                "Massa",
+                "Tempo",
+                "quantidade de luminosidade",
                 "Transferência de calor entre corpos"
             ], 
-            correct: "Energia transferida por uma força ao longo de um deslocamento" 
+            correct: "comprimento" 
         },
         { 
             question: "Qual grandeza física é representada pela relação P = F / A?", 
